@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronostiqueur de Rugby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pronostiqueur de Rugby</h1>
+            <h3>Amusez-vous à simuler le match de votre choix</h3>
+        </header>
+        <section>
+            <h2>Choisissez les équipes :</h2>
+            <!-- <form action="details_match.html" method="post"> -->
+                <h3>Equipe à domicile</h3>
+                <select name="domicile" id="equipe1">
+                    <!-- Options pour l'équipe 1 -->
+                </select>
+                <h3>Equipe à l'extérieur</h3>
+                <select name="exterieur" id="equipe2">
+                    <!-- Options pour l'équipe 2 -->
+                </select>
+                <button type="submit" id="predictButton">Prédire</button>
+            <!-- </form> -->
+        </section>
+        <section>
+            <h2></h2>
+            <p id="predictionResult"></p>
+            <p id="predictresult"></p>
+        </section>
+        <footer>
+            <p>&copy; 2023 Pronostiqueur de Rugby</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
